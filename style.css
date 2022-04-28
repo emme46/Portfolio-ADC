@@ -1,0 +1,101 @@
+.head-banner{
+  background-color: #d0d0d0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url(images/IMG-20220120-WA0017.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.icon-section{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.col-xl-9{
+  color: rgb(244, 244, 244);
+}
+
+.glyphicon{
+  font-size: 35px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.images-section .image{ 
+  min-height: 30rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.images-section .testo{
+padding: 3rem;
+}
+
+.title-r{
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+}
+
+.yt {
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.sc{
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter{
+  background-image: url(images/Newsletter-background.jpg);
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.contact{
+  font-style: italic;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+footer{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.list-inline-item > a {
+  color: black;
+}
+
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem; 
+        padding-bottom: 12rem;
+     }
+     .images-section .testo{
+      padding: 7rem;
+      }
+      
+}
